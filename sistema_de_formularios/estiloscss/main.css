@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+  }
+html {
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+}
+/*url(2.jpeg) repeat center top*/
+body {
+    margin: 0;
+    padding: 0;
+    background: #313131;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+
+input{
+    background-color: #ffffff;
+    padding: .4rem;
+    margin: .4rem 0;
+    border: none;
+    border-bottom: solid #0c0c0c .1rem;
+    transition: all .4%;
+    border-radius: 50px;
+}
+
+.container {
+    max-width: 450px;
+    height: auto;
+    background-color:rgba(62, 150, 146, 0.849);
+    margin: 5% auto;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.form__top {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem #ffffff;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+}
+
+.form__top h2 {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+h2 span {
+    color: #ffffff;
+}
+
+.form__reg {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn__form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;  
+}
+
+.input, .btn__submit, .btn__reset{
+    background-color: #ffffff;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #ffffff .2rem;
+    transition: all .5%;
+    border-radius: 50px;
+}
+
+.input:focus { 
+   border-bottom: solid #ffffff .2rem;
+} 
+
+.btn__submit, .btn__reset {
+    width: 85%;
+    border-bottom: none;
+    background-color: #f0b942;
+    color: white;
+}
+
+.btn__reset {
+    background-color: #f0b942; 
+}
+
+.btn__submit:hover { 
+    background-color: #5e5e5e;
+}
+
+.btn__reset:hover{ 
+    background-color: #5e5e5e;
+}
+
+
+a:link, a:visited {
+    background-color: #6d423b;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(240, 155, 155);
+  }
+
+table{
+  border-collapse: collapse;
+  
+}
+td{
+background: WHITE;
+ border: 3px solid #000000;
+}
+th{
+background: rgba(62, 150, 146, 0.849);
+ border: 3px solid black;
+ COLOR:WHITE;   
+}
+caption{
+background: rgba(62, 150, 146, 0.849);
+color: white;
+ border: 3px solid black;
+}
